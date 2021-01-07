@@ -1,14 +1,52 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "posts": [
+        { "id": 1, "title": "Post 1" },
+        { "id": 2, "title": "Post 2" },
+        { "id": 3, "title": "Post 3" }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 },
+        { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+     "name": "typicode"
+    },
+    "accumulated" : [
+        {"date" : "20201230", "lumpSum" : 3000, "totalPrice" : 3000.10},
+        {"date" : "20201231", "lumpSum" : 3000, "totalPrice" : 3000.05},
+        {"date" : "20210104", "lumpSum" : 3000, "totalPrice" : 3002.00},
+        {"date" : "20210105", "lumpSum" : 3000, "totalPrice" : 3010.10},
+        {"date" : "20210106", "lumpSum" : 3000, "totalPrice" : 3008.30},
+        {"date" : "20210107", "lumpSum" : 3000, "totalPrice" : 3012.00}
+    ],
+    "profit" : [
+        {"date" : "202012", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 3000, "totalProfit" : 3012.25, "totalPercentage" : 0.25},
+        {"date" : "202101", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 6000, "totalProfit" : 6012.25, "totalPercentage" : 0.25},
+        {"date" : "202102", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 9000, "totalProfit" : 9012.25, "totalPercentage" : 0.25},
+        {"date" : "202103", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 12000, "totalProfit" : 12012.25, "totalPercentage" : 0.25},
+        {"date" : "202104", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 15000, "totalProfit" : 15012.25, "totalPercentage" : 0.25},
+        {"date" : "202105", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 18000, "totalProfit" : 18012.25, "totalPercentage" : 0.25}
+    ],
+    "success": {  
+        "status" : 0,
+        "msg" : "success",
+        "data" : {
+            "accumulated" : [
+                {"date" : "20201230", "lumpSum" : 3000, "totalPrice" : 3000.10},
+                {"date" : "20201231", "lumpSum" : 3000, "totalPrice" : 3000.05},
+                {"date" : "20210104", "lumpSum" : 3000, "totalPrice" : 3002.00},
+                {"date" : "20210105", "lumpSum" : 3000, "totalPrice" : 3010.10},
+                {"date" : "20210106", "lumpSum" : 3000, "totalPrice" : 3008.30},
+                {"date" : "20210107", "lumpSum" : 3000, "totalPrice" : 3012.00}
+            ],
+            "profit" : [
+                {"date" : "202012", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 3000, "totalProfit" : 3012.25, "totalPercentage" : 0.25},
+                {"date" : "202101", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 6000, "totalProfit" : 6012.25, "totalPercentage" : 0.25},
+                {"date" : "202102", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 9000, "totalProfit" : 9012.25, "totalPercentage" : 0.25},
+                {"date" : "202103", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 12000, "totalProfit" : 12012.25, "totalPercentage" : 0.25},
+                {"date" : "202104", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 15000, "totalProfit" : 15012.25, "totalPercentage" : 0.25},
+                {"date" : "202105", "amount" : 3000, "profit" : 12.25, "percentage" : 0.01, "totalAmount" : 18000, "totalProfit" : 18012.25, "totalPercentage" : 0.25}
+            ]
+        }
+    }
 }
